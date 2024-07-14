@@ -1,0 +1,456 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: lightgrey;
+    width: 100%;
+    height: 4.5vh;
+    padding-left: 22px;
+    padding-top: 20px;
+    font-size: larger;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 1.3fr 1.4fr 1fr 1fr;
+    grid-template-rows: 80px 80px 431px 270px;
+}
+
+main div {
+    border: solid 1px;
+}
+
+#logo {
+    grid-column: 2;
+}
+
+#navegador {
+    grid-column: 3/6;
+}
+
+#menu {
+    grid-row: 2/4;
+    grid-column: 2;
+}
+
+#busca {
+    grid-column: 3/6;
+    grid-row: 2;
+    box-sizing: border-box;
+}
+
+#banner {
+    grid-row: 3;
+    grid-column: 3/6;
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/hero/banner.jpg);
+    display: flex;
+    height: 431px;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+#txtgr {
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #7fad39;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+p {
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+    margin-bottom: 35px;
+}
+
+h2 {
+    font-size: 46px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    line-height: 52px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+
+
+#prod1 {
+    grid-row: 4;
+    grid-column: 2;
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/categories/cat-1.jpg);
+}
+
+#b1 {
+    margin-top: 220px;
+    margin-left: 60px;
+    height: 40px;
+    width: 180px;
+    background-color: #ffffff;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+#b2 {
+    margin-top: 220px;
+    margin-left: 60px;
+    height: 40px;
+    width: 180px;
+    background-color: #ffffff;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+#b3 {
+    margin-top: 220px;
+    margin-left: 60px;
+    height: 40px;
+    width: 180px;
+    background-color: #ffffff;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+#b4 {
+    margin-top: 220px;
+    margin-left: 30px;
+    height: 40px;
+    width: 180px;
+    background-color: #ffffff;
+    font-family: "Cairo", sans-serif;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+#FP {
+    font-family: "Cairo", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#Menu2 {
+    display: flex;
+    align-items: center;
+    margin-left: 540px;
+    font-family: "Cairo", sans-serif;
+    font-size: 20px;
+}
+
+#btntd {
+    margin-right: 30px;
+}
+
+#Oranges {
+    margin-right: 30px;
+}
+
+#FreshMeat {
+    margin-right: 30px;
+
+}
+
+#Vegetables {
+    margin-right: 30px;
+
+}
+
+#FastFood {
+    margin-right: 30px;
+
+}
+
+#tudo {
+    margin-top: 50px;
+    display: flex;
+
+}
+
+#Carne {
+    margin-left: 225px;
+}
+
+.txt {
+    text-align: center;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    color: #252525;
+}
+
+.preço {
+    text-align: center;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #252525;
+}
+
+#Banana {
+    margin-left: 25px;
+}
+
+#Goiaba {
+    margin-left: 25px;
+}
+
+#Melancia {
+    margin-left: 25px;
+}
+
+#Uva {
+    margin-left: 25px;
+}
+
+#tudo2 {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 190px;
+}
+
+#Uva {
+    margin-left: 25px;
+}
+
+#Hamb {
+    margin-left: 25px;
+}
+
+#Manga {
+    margin-left: 25px;
+}
+
+#Maçã {
+    margin-left: 25px;
+}
+
+#banner1e2 {
+margin-top: 100px ;
+display: flex;
+}
+#banner1{
+    margin-left: 210px;
+}
+#banner2{
+    margin-left: 30px;
+}
+#bxbanner1{
+    margin-top: 60px;
+    display: flex;
+}
+#LP{
+    font-family: "Cairo", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 200px;
+    
+}
+#TRP{
+    font-family: "Cairo", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 250px;
+    
+}
+#RP{
+    font-family: "Cairo", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 250px;
+}
+.txtbxbnn{
+    text-align: left;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    color: #252525;
+}
+.preçobxbnn{
+    text-align: left;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #252525;
+    display: flex;
+    
+}
+#bxbanner2{
+    margin-top: 60px;
+    display: flex;
+    margin-left: 200px;
+}
+#couve1{
+display: inline-flex;
+align-items: flex-start;
+}
+
+#txtbxbnn{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#imgco{
+    margin-right: 25px;
+}
+
+#couve2{
+    margin-left: 290px;
+}
+#couve3{
+    margin-left: 290px;
+}
+#prod2 {
+    grid-row: 4;
+    grid-column: 3;
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/categories/cat-4.jpg);
+}
+
+#prod3 {
+    grid-row: 4;
+    grid-column: 4;
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/categories/cat-3.jpg);
+}
+
+#prod4 {
+    grid-row: 4;
+    grid-column: 5;
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/categories/cat-2.jpg);
+}
+
+#headertop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #1c1c1c;
+    font-family: "Cairo", sans-serif;
+}
+
+#email {
+    margin-right: 5vh;
+
+}
+
+#idF {
+    margin-right: 55.5vh;
+}
+
+#idioma {
+    margin-left: 5vh;
+
+}
+
+#login {
+    margin-left: 5vh;
+}
+
+svg {
+    width: 14px;
+    height: 14px;
+}
+
+#icone1 {
+    margin-left: 2vh;
+    margin-left: 2vh;
+}
+
+#icone2 {
+    margin-left: 2vh;
+    margin-left: 2vh;
+}
+
+#icone3 {
+    margin-left: 2vh;
+    margin-left: 2vh;
+}
+
+#icone4 {
+    margin-left: 2vh;
+    margin-left: 2vh;
+}
+
+#imgUSA {
+    margin-right: 15px;
+
+}
+
+#menuBarra {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+#menuPages {
+    list-style: none;
+    padding: 0;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 450%;
+    opacity: 0;
+    z-index: -99;
+    top: 50px;
+    transition: 0.5s;
+}
+
+#menuHover:hover #menuPages {
+    opacity: 1;
+    z-index: 99;
+    top: 16px;
+}
+
+#menuHover {
+    position: relative;
+}
+
+#search {
+    width: 30%;
+    float: left;
+    font-size: 16px;
+    color: #1c1c1c;
+    font-weight: 700;
+    padding-left: 18px;
+    padding-top: 11px;
+    position: relative;
+}
+
+#butaosearch {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 13px 30px 12px;
+    background: #7fad39;
+    border: none;
+}
+
+#butaobanner {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 13px 30px 12px;
+    background: #7fad39;
+    border: none;
+}
